@@ -1,0 +1,6 @@
+.post-title {
+  color: rgb(85, 85, 85);
+  text-shadow: 0 0 2px rgba(0,0,0,0.2);
+  text-align: left;
+  background-color: rgb(240, 240, 240);
+}
