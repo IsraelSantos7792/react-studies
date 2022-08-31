@@ -24,7 +24,7 @@ export const Home = () => {
   :
   posts;
 
-  const handleLoadPosts = useCallback(async (page, postPerPage) => {
+  const handleLoadPosts = useCallback(async (page) => {
     const postsAndPhotos = await loadPosts();
     
     setPosts(postsAndPhotos.slice(page,postsPerPage));
