@@ -20,7 +20,7 @@ describe("Button", () => {
     fireEvent.click(button);
 
     expect(fn).toHaveBeenCalledTimes(1);
-    
+
   });
 
   it("should be disabled when disabled is true", () => {
@@ -33,7 +33,7 @@ describe("Button", () => {
     fireEvent.click(button);
 
     expect(button).toBeEnabled();
-    
+
   });
 });
 
