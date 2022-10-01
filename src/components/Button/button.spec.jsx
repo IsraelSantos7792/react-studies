@@ -23,6 +23,8 @@ describe("Button", () => {
 
   });
 
+  //TESTE
+
   it("should be disabled when disabled is true", () => {
     const fn = jest.fn();
     render(<Button text="load more" onClick={fn} disabled={false}/>);
